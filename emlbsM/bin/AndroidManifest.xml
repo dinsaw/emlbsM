@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.ds.emlbsm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <permission
+        android:name="com.example.mapdemo.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.example.mapdemo.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="dev.ds.emlbsm.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.ServiceListActivity"
+            android:label="@string/title_activity_service_list" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.AccActivity"
+            android:label="@string/title_activity_acc" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.MapActivity"
+            android:label="@string/title_activity_map"
+            android:parentActivityName="dev.ds.emlbsm.activity.ServiceListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dev.ds.emlbsm.activity.ServiceListActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBg9K8DRm9yCegCiGRNWCsYVfSNoDrJxsE" />
+
+        <activity
+            android:name="dev.ds.emlbsm.activity.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.CameraPreview"
+            android:label="@string/title_activity_issue_complaint" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.CameraPreviewActivity"
+            android:label="@string/title_activity_camera_preview" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.IssueActivity"
+            android:label="@string/title_activity_issue"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.ImageSendActivity"
+            android:label="@string/title_activity_image_send" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.TestWSActivity"
+            android:label="@string/title_activity_test_ws" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.ParseJSON"
+            android:label="@string/title_activity_parse_json" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.AlphaSettingsActivity"
+            android:label="@string/title_activity_alpha_settings" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.NewsMenuActivity"
+            android:label="@string/title_activity_news_menu" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.NewsActivity"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name="dev.ds.emlbsm.activity.LegendActivity"
+            android:label="@string/title_activity_legend" >
+        </activity>
+    </application>
+
+</manifest>

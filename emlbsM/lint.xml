@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CommitPrefEdits">
+        <ignore path="src/dev/ds/emlbsm/activity/MainActivity.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/dev/ds/emlbsm/IssueActivity.java" />
+        <ignore path="src/dev/ds/emlbsm/activity/IssueActivity.java" />
+    </issue>
+</lint>

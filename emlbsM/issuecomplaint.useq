@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.2" icons="true">  
+  <object id="1" language="java" name="dev.ds.emlbsm.activity.IssueActivity" project="emlbsM" 
+    file="/emlbsM/src/dev/ds/emlbsm/activity/IssueActivity.java" binary="false" label="issueActivity" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="6" y="0"/>  
+  </object>  
+  <object id="2" language="java" name="dev.ds.emlbsm.activity.ImageSendActivity" project="emlbsM" 
+    file="/emlbsM/src/dev/ds/emlbsm/activity/ImageSendActivity.java" binary="false" label="imageSendActivity" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="295" y="0"/>  
+  </object>  
+  <object id="3" language="java" name="dev.ds.emlbsm.activity.RetreiveFeedTask" project="emlbsM" 
+    file="/emlbsM/src/dev/ds/emlbsm/activity/ImageSendActivity.java" binary="false" label="retreiveFeedTask" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="295" y="0"/>  
+  </object>  
+  <object id="4" language="java" name="dev.ds.emlbsm.activity.IssueRequestTask" project="emlbsM" 
+    file="/emlbsM/src/dev/ds/emlbsm/activity/ImageSendActivity.java" binary="false" label="issueRequestTask" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="295" y="0"/>  
+  </object>  
+  <object id="5" language="java" name="dev.ds.emlbsm.activity.RetreiveOverlayFeedTask" project="emlbsM" 
+    file="/emlbsM/src/dev/ds/emlbsm/activity/ImageSendActivity.java" binary="false" label="retreiveOverlayFeedTask" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="295" y="0"/>  
+  </object>  
+  <object id="6" language="java" name="dev.ds.emlbsm.util.PhotoHandler" project="emlbsM" 
+    file="/emlbsM/src/dev/ds/emlbsm/util/PhotoHandler.java" binary="false" label="photoHandler" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="653" y="0"/>  
+  </object>  
+  <object id="7" language="java" name="dev.ds.emlbsm.util.loc.LocationUtil" project="emlbsM" 
+    file="/emlbsM/src/dev/ds/emlbsm/util/loc/LocationUtil.java" binary="false" label="locationUtil" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="781" y="0"/>  
+  </object>  
+  <object id="8" language="java" name="dev.ds.emlbsm.util.loc.MyLocationListener" project="emlbsM" 
+    file="/emlbsM/src/dev/ds/emlbsm/util/loc/MyLocationListener.java" binary="false" label="myLocationListener" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="932" y="0"/>  
+  </object>
+</sequence-diagram>
